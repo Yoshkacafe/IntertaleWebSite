@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Intertale Interactive - Équipe de développeurs indépendants passionnés | Jeux sur ordinateur et mobile</title>
+  <link rel="icon" href="images/intertale_logo.png"/>
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Intertale Interactive - Équipe de développeurs indépendants passionnés | Jeux sur ordinateur et mobile">
+  <meta name="author" content="Intertale Interactive">
+  <meta name="keywords" content="jeux, jeux vidéo, discord, developper, developpeur, unity, dev, c#, intertale, Intertale Interactive" />
+</head>
+<body>
+    <nav class="nav_pc">
+        <a href="index.html"><img src="images/intertale_logo.png" class="logo"></a>
+        <div class="empty"></div>
+        <div class="nav">
+            <ul id="up">
+                <a href="pages/games.html"><li>Nos jeux</li></a>
+                <a href="pages/team.html"><li>L'équipe</li></a>
+                <a href="pages/partner.html"><li>Nos partenaires</li></a>
+                <a href="pages/contact_us.html"><li>Nous contacter</li></a>
+                <div class="language">
+                    <img src="images/france.png" id="language" class="france_langue" onclick="changeLanguage()">
+                    <img src="images/united-kingdom.png" id="language" class="english_langue" onclick="changeLanguage()">
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <script>
+        function changeLanguage() {
+            var language = document.getElementById("language");
+            if (language.src.match("images/language.png")) {
+                language.src = "images/language_en.png";
+            } else {
+                language.src = "images/language.png";
+            }
+        }
+    </script>
+    <nav class="nav_mobile">
+        <a href="index.html"><img src="images/intertale_logo.png" id="logo"></a>
+        <a href="pages/games.html"><img src="images/games.png"></a>
+        <a href="pages/team.html"><img src="images/team.png"></a>
+        <a href="pages/partner.html"><img src="images/partner.png"></a>
+        <a href="pages/contact_us.html"><img src="images/contact.png"></a>
+    </nav>
+    <div class="space"></div>
+    <div class="beta">
+        <img src="images/warning.png">
+        <p>Ce site est une version anticipée, des bugs sont donc à prévoir et la version mobile n'est pas encore développée. Si vous rencontrez un problème ou un soucis de taille de page, n'hésitez pas à nous le faire savoir sur notre serveur Discord en nous prevenant le plus rapidement possible. Le problème sera résolu dans le journée ! Ci joint <a href="https://discord.gg/TD5pwKXeaP" id="discord" target="_blank">notre serveur Discord</a>.</p>
+    </div>
+    <article id="presentation_games">
+        <h2>Nouveautés</h2>
+        <img src="images/Pizz'Empire.png" id="news_banner">
+        <div class="arrow_presentation">
+            <img src="images/arrow.png" id="arrow">
+            <img src="images/arrow.png" id="arrow">
+        </div>
+    </article>
+    <main>
+        <div class="with_image">
+            <div class="presentation">
+                <h1>Qui sommes nous ?</h1>
+                <p>Intertale Interactive est un jeune studio de développement de jeux vidéo indépendant. Nous sommes une équipe de 3 personnes, passionnés par le jeu vidéo et l'informatique. Nous avons décidé de nous lancer dans la création de jeux vidéo en 2019, et nous créons notre premier jeu, Fight Quest, un jeu prixel art en 2D, depuis 2022. D'autres petits jeux sont à prévoir en attendant !</p>
+            </div>
+            <img src="images/FQ4presentation.png" id="pres">
+        </div>
+        <div class="with_image">
+            <img src="images/Logo Pizz'Empire.png">
+            <div class="presentation_2">
+                <h1 id="pizz_grad">Pizz'Empire</h1>
+                <p>Pendant le developpement de <strong>Fight Quest</strong>, nous avons eu l'idée de developper des petits jeux vidéo mobiles. En voici l'exemple, avec notre premier jeu mobile "Pizz'Empire" !</p>
+                <a href="pages/pizz.html"><button>En savoir plus</button></a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="first_in_footer">
+            <img src="images/Banner_remove_bg_gray.png">
+            <div class="deep">
+                <img src="images/angle.png">
+                <a href="#up"><h3>Sortir de profondeur</h3></a>
+            </div>
+        </div>
+        <div class="second_in_footer">
+            <div class="ressources_in_footer">
+                <div class="div_ressources">
+                    <div class="first_col_ressources">
+                        <h2>RESSOURCES</h2>
+                        <div class="list_of_ressources">
+                            <ul>
+                                <a href="" title="En développement"><li>SUPPORT</li></a>
+                                <a href="pages/cgu.html"><li>CONDITIONS GENERALES D’UTILISATION</li></a>
+                                <a href="pages/contact_us.html"><li>NOUS CONTACTER</li></a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="second_col_ressources">
+                        <a href="" title="En développement"><li>POLITIQUES DE CONFIDENTIALITE</li></a>
+                        <a href="" title="En développement"><li>SECURITE</li></a>
+                    </div>
+                </div>
+            </div>
+            <div class="network_in_footer">
+                <a href="https://discord.gg/TD5pwKXeaP" target="_blank"><img src="images/discord.png"></a>
+                <a href="https://www.youtube.com/channel/UC-rVG8tDpggXspfIIwPBsuw" target="_blank"><img src="images/youtube.png"></a>
+                <a href="https://www.tiktok.com/@intertale" target="_blank"><img src="images/tik-tok.png"></a>
+                <a href="https://twitter.com/Intertale_G" target="_blank"><img src="images/twitter.png"></a>
+                <a href="https://www.instagram.com/intertale.team/" target="_blank"><img src="images/instagram.png"></a>
+                <a href="https://github.com/Intertale-Interactive" target="_blank"><img src="images/github.png"></a>
+            </div>
+        </div>
+        <div class="third_line_of_footer">
+            <h2>NOS JEUX</h2>
+            <div class="list_of_games">
+                <ul>
+                    <li>Pizz'Empire</li>
+                    <li>Fight Quests</li>
+                </ul>
+            </div>
+        </div>
+        <div class="last_line_of_footer">
+            <h3>© 2023, Intertale Interacitve. Tous droits réservés.</h3>
+            <!-- <div class="remerciements">
+                <h2>REMERCIEMENTS</h2>
+                <div class="support_img">
+                    <img src="">
+                    <img src="">
+                </div>
+            </div> -->
+        </div>
+    </footer>
+</body>
+</html>

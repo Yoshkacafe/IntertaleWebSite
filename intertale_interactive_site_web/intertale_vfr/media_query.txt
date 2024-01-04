@@ -1,0 +1,424 @@
+@media screen and (max-width: 782px)
+{
+    /* Nos JEUX */
+    .game_page > h1, .team_page > h1, .contact_page > h1
+    {
+        font-size: 50px;
+    }
+    .top_desc
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .top_desc > img
+    {
+        width: 30%;
+        margin-bottom: 2%;
+    }
+    .second_row_desc, .first_row_desc
+    {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .game_themes
+    {
+        padding: 4%;
+        background-color: #2B313F;
+        border-radius: 10px;
+        margin-right: 1.4%;
+        margin-left: 1.4%;
+        margin-bottom: 2%;
+    }
+    .game_themes > img
+    {
+        width: 15px;
+        margin-right: 5px;
+    }
+    .install_game
+    {
+        padding: 3%;
+        font-size: 20px;
+        background-color: #FF5B5B;
+        border-radius: 15px;
+    }
+    /* L'équipe */
+    .mate
+    {
+        background-color: #D9D9D9;
+        display: flex;
+        padding: 2%;
+        margin-right: 5%;
+        margin-bottom: 2%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: left;
+        border-radius: 40px;
+    }
+    .mate > img
+    {
+        width: 25%;
+        border-radius: 20px;
+        box-shadow: 0px 0px 15px 7px rgba(0,0,0,0.1);
+    }
+    .mate > div > h2
+    {
+        font-size: 45px;
+        margin-left: 5%;
+        font-weight: 900;
+    }
+    .mate > div > p
+    {
+        font-size: 15px;
+        margin-left: 5%;
+        font-weight: 400;
+    }
+    /* Contact */
+    .steps
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 2%;
+    }
+    .send_button_contact > a
+    {
+        background: rgb(255,106,73);
+        background: linear-gradient(90deg, rgba(255,106,73,1) 0%, rgba(255,91,91,1) 100%); 
+        color: white;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5%;
+        margin-right: 35%;
+        margin-left: 30%;
+    }
+    .send_button_contact > a > h2
+    {
+        font-family: 'Teko', sans-serif;
+        margin-left: 6%;
+        font-size: 25px;
+        color: white;
+    }
+    .send_button_contact > a > img
+    {
+        width: 20px;
+    }
+    /* Home */
+    .with_image
+    {
+        display: flex;
+        flex-direction: row;
+        margin-right: 5%;
+    }
+    .with_image > img
+    {
+        display: none;
+    }
+    .presentation_2
+    {
+        margin: 0;
+    }
+    /* Pizz'Empire */
+    .pizz_page > h1, .pizz_page > div > h1
+    {
+        font-size: 50px;
+    }
+    .pizz_title
+    {
+        margin-top: 12.5%;
+    }
+    .new_banner > img
+    {
+        width: 40%;
+        margin-top: 40%;
+        border-radius: 40px;
+    }
+}
+@media all and (max-width: 384px)
+{
+    /* Menu */
+    .nav_pc
+    {
+        display: none;
+    }
+    .nav_mobile
+    {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 10%;
+    }
+    #logo
+    {
+        border-radius: 10px;
+    }
+    .nav_mobile > a > img
+    {
+        width: 30px;
+        margin-right: 5%;
+    }
+    .nav_mobile > a
+    {
+        margin: 10px;
+    }
+    .nav_mobile
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 15px 7px rgba(0,0,0,0.1);
+        border-radius: 20px;
+    }
+    .nav_mobile_div > a > img
+    {
+        width: 30px;
+        margin-right: 5%;
+    }
+    /* Nos JEUX */
+    .game_page > h1, .team_page > h1, .contact_page > h1
+    {
+        font-size: 50px;
+    }
+    .top_desc
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .top_desc > img
+    {
+        width: 30%;
+        margin-bottom: 2%;
+    }
+    .second_row_desc, .first_row_desc
+    {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .game_themes
+    {
+        padding: 4%;
+        background-color: #2B313F;
+        border-radius: 10px;
+        margin-right: 1.4%;
+        margin-left: 1.4%;
+        margin-bottom: 2%;
+    }
+    .game_themes > img
+    {
+        width: 15px;
+        margin-right: 5px;
+    }
+    .install_game
+    {
+        padding: 3%;
+        font-size: 20px;
+        background-color: #FF5B5B;
+        border-radius: 15px;
+    }
+    /* L'équipe */
+    .mate
+    {
+        background-color: #D9D9D9;
+        display: flex;
+        padding: 2%;
+        margin-right: 5%;
+        margin-bottom: 2%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: left;
+        border-radius: 40px;
+    }
+    .mate > img
+    {
+        width: 25%;
+        border-radius: 20px;
+        box-shadow: 0px 0px 15px 7px rgba(0,0,0,0.1);
+    }
+    .mate > div > h2
+    {
+        font-size: 45px;
+        margin-left: 5%;
+        font-weight: 900;
+    }
+    .mate > div > p
+    {
+        font-size: 15px;
+        margin-left: 5%;
+        font-weight: 400;
+    }
+    /* Contact */
+    .steps
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 2%;
+    }
+    .send_button_contact > a
+    {
+        background: rgb(255,106,73);
+        background: linear-gradient(90deg, rgba(255,106,73,1) 0%, rgba(255,91,91,1) 100%); 
+        color: white;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5%;
+        margin-right: 35%;
+        margin-left: 30%;
+    }
+    .send_button_contact > a > h2
+    {
+        font-family: 'Teko', sans-serif;
+        margin-left: 6%;
+        font-size: 25px;
+        color: white;
+    }
+    .send_button_contact > a > img
+    {
+        width: 20px;
+    }
+    /* Home */
+    .with_image
+    {
+        display: flex;
+        flex-direction: row;
+        margin-right: 5%;
+    }
+    .with_image > img
+    {
+        display: none;
+    }
+    .presentation > h1, .presentation_2 > h1
+    {
+        font-size: 60px;
+    }
+    .presentation_2
+    {
+        margin: 0;
+    }
+    /* Pizz'Empire */
+    .pizz_page > h1, .pizz_page > div > h1
+    {
+        font-size: 50px;
+    }
+    .pizz_title
+    {
+        margin-top: 12.5%;
+    }
+    .new_banner > img
+    {
+        width: 40%;
+        margin-top: 40%;
+        border-radius: 40px;
+    }
+    .arrow_presentation > img:nth-child(1)
+    {
+        transform: rotate(180deg);
+        margin-left: 20%;
+    }
+    .arrow_presentation > img:nth-child(2)
+    {
+        margin-right: 20%;
+    }
+    .arrow_presentation
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 650%;
+        margin-top: 1%;
+    }
+    #presentation_games > h2
+    {
+        display: block;
+        color: #2B313F;
+        font-family: 'Inter', sans-serif;
+    }
+    .first_in_footer
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .first_in_footer > img
+    {
+        width: 50%;
+        margin-bottom: 2%;
+    }
+    .deep
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 2%;
+    }
+    .second_in_footer
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1.5%;
+    }
+    .div_ressources
+    {
+        flex-direction: column;
+    }
+    .first_col_ressources, .second_col_ressources, .list_of_ressources > ul
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+    .list_of_ressources > ul > a, .second_col_ressources > a
+    {
+        margin-bottom: 2%;
+    }
+    .network_in_footer
+    {
+        width: 80%;
+    }
+    .network_in_footer > a > img
+    {
+        width: 10%;
+        margin: 1%;
+    }
+    footer
+    {
+        padding-bottom: 27%;
+    }
+    .last_line_of_footer > h3
+    {
+        text-align: center;
+    }
+    .third_line_of_footer, .list_of_games > ul
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1.5%;
+    }
+    .list_of_games > ul
+    {
+        margin-bottom: 2%;
+    }
+}
